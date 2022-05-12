@@ -1,0 +1,48 @@
+@media screen and (min-width: 900px) {
+  .container {
+    width: 100%;
+    max-width: 120rem;
+    min-height: 70rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    background-position: 0% 100%;
+  }
+
+  .back-img {
+    /* display: none; */
+    width: 49%;
+    top: 1%;
+    left: 50%;
+    transform: translate(15%, 15%);
+  }
+
+  .profile-img {
+    width: 100%;
+  }
+
+  .quote {
+    font-size: 2rem;
+    text-align: left;
+
+    margin-top: 0;
+    background-position: 14% -14%;
+    background-size: 12%;
+  }
+
+  .info {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 2.5rem;
+    gap: 1rem;
+  }
+  .position {
+    margin-top: 0;
+  }
+
+  .buttons {
+    top: 95%;
+    left: 20%;
+  }
+}
